@@ -1,6 +1,6 @@
 const cacheName = 'kursy-piac-v1';
 const filesToCache = [
-    '/',
+    '/moje-pwa/',
     '/moje-pwa/index.html',
     '/moje-pwa/style.css',
     '/moje-pwa/js/router.js',
