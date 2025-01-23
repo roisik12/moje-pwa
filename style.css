@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Pełna wysokość widoku */
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    flex: 1; /* Wypełnia resztę przestrzeni */
+    padding: 2rem;
+}
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.card {
+    margin: 1rem;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+#content {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
