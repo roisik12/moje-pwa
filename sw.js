@@ -1,11 +1,11 @@
 const cacheName = 'kursy-piac-v1';
 const filesToCache = [
     '/',
-    '/index.html',
-    '/style.css',
-    '/js/router.js',
-    '/js/main.js',
-    '/manifest.json'
+    '/moje-pwa/index.html',
+    '/moje-pwa/style.css',
+    '/moje-pwa/js/router.js',
+    '/moje-pwa/js/main.js',
+    '/moje-pwa/manifest.json'
 ];
 
 self.addEventListener('install', (event) => {
